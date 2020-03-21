@@ -32,6 +32,14 @@ nav{float:left; border-style: none;}
   background-color: white;
   color: #508fa3;
 }
+
+#introparagraph{
+  text-align: center;
+  padding-top: 75px;
+  font-size: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 }
 
 
@@ -66,6 +74,14 @@ nav{float:left; border-style: none;}
   background-color: white;
   color: #508fa3;
 }
+
+#introparagraph{
+  text-align: center;
+  padding-top: 75px;
+  font-size: 18px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
 }
 
 /*phone */
@@ -95,8 +111,11 @@ nav{
 .navigation{
   text-align: center;
 }
-}
-}
 
+#introparagraph{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 14px;
 
+}
 }

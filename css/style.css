@@ -145,10 +145,10 @@ nav{
   width: 45%;
 }
 .about img{
-  width: 70%;
+  width: 120%;
 height: 100%;
 object-fit: contain;
-padding-left: 25px;
+padding-left: 100px;
 padding-right:25px;
 }
 }

@@ -47,6 +47,16 @@ nav{float:left; border-style: none;}
   padding-right: 200px;
 }
 
+.button btn{
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 1px 2px;
+text-align: center;
+font-size: 16px;
+cursor: pointer;
+}
+
 }
 
 
@@ -145,10 +155,10 @@ nav{
   width: 45%;
 }
 .about img{
-  width: 120%;
+  width: 140%;
 height: 100%;
 object-fit: contain;
-padding-left: 100px;
+padding-left: 85px;
 padding-right:25px;
 }
 }

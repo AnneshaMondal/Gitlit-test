@@ -40,6 +40,13 @@ nav{float:left; border-style: none;}
   padding-left: 200px;
   padding-right: 200px;
 }
+
+.about{
+  display: block;
+  padding-left: 445px;
+  padding-right: 200px;
+}
+
 }
 
 
@@ -79,8 +86,21 @@ nav{float:left; border-style: none;}
   text-align: center;
   padding-top: 75px;
   font-size: 18px;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.about{
+  display: block;
+  height: auto;
+  width: 45%;
+}
+.about img{
+  width: 175%;
+height: 100%;
+object-fit: contain;
+padding-left: 55px;
+padding-right:25px;
 }
 }
 
@@ -117,5 +137,18 @@ nav{
   padding-top: 30px;
   font-size: 14px;
 
+}
+
+.about{
+  display: block;
+  height: auto;
+  width: 45%;
+}
+.about img{
+  width: 70%;
+height: 100%;
+object-fit: contain;
+padding-left: 25px;
+padding-right:25px;
 }
 }

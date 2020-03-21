@@ -1,3 +1,5 @@
+/*for laptops/desktops */
+
 @media only screen and (min-width: 975px) {
 nav{float:left; border-style: none;}
 
@@ -32,6 +34,8 @@ nav{float:left; border-style: none;}
 }
 }
 
+
+/* tablet to smaller screen */
 @media only screen and (min-width:401px) and (max-width:975px)
 {
 nav{float:left; border-style: none;}
@@ -64,6 +68,7 @@ nav{float:left; border-style: none;}
 }
 }
 
+/*phone */
 @media only screen and (max-width:400px)
 {
 nav{
@@ -84,7 +89,7 @@ nav{
   text-align: center;
   padding: 2px 2px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 16px;
   width: 5%
 }
 .navigation{

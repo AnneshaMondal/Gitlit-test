@@ -18,6 +18,7 @@ body {
 h3{
   text-align: center;
   font-size: 28px;
+  padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 975px) {
@@ -26,8 +27,9 @@ h3{
   text-align: center;
 }
 
-.c1, .c3{
+.c1{
   text-align: center;
+
 
 }
 .c2{
@@ -67,6 +69,7 @@ input [type=text] {
   text-align: left;
   border-radius: 18px;
   background: #f5d1d0;
+  font-family: 'Fredericka the Great', cursive;
 }
 .datesize{
   width: 185px;
@@ -74,6 +77,7 @@ input [type=text] {
   font-size: 15px;
   border-radius: 18px;
   background: #f5d1d0;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .namesize{
@@ -82,6 +86,7 @@ input [type=text] {
   border-radius: 18px;
   background: #f5d1d0;
   padding-right: 50px;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .addresssize{
@@ -89,6 +94,7 @@ input [type=text] {
   border-radius: 18px;
   background: #f5d1d0;
   height: 15px;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 
@@ -100,6 +106,7 @@ input [type=text] {
   padding: 15px 15px;
   padding-left: 30px;
   padding-right: 400px;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .memosize{
@@ -110,26 +117,32 @@ input [type=text] {
   background: #f5d1d0;
   border-radius: 18px;
   background: #f5d1d0;
+  font-family: 'Fredericka the Great', cursive;
 
 }
 .bcity, .bzip, .st, .et{
   border-radius: 18px;
   background: #f5d1d0;
   font-size: 15px;
+  font-family: 'Fredericka the Great', cursive;
 
 }
 .bdaybtn{
   text-align: center;
+  padding-left: 800px;
+  padding-top: 100px;
+
 }
 
   .bdaybtn button{
-    font-size: 25px;
+    font-size: 16px;
     text-align: center;
     cursor: pointer;
     padding: 15px 25px;
-    color:white;
-    background-color:blue;
+    color:black;
+    background-color:#eca8a6;
     border-radius: 20px;
+    font-family: 'Fredericka the Great', cursive;
 
   }
 .weddingnames, .bsaddress{
@@ -154,6 +167,7 @@ input [type=text] {
   width: 300px;
   height: 15px;
   font-size: 13px;
+  font-family: 'Cedarville Cursive', cursive;
 
 }
 
@@ -163,6 +177,7 @@ input [type=text] {
   border-radius: 18px;
   width: 185px;
   height: 15px;
+  font-family: 'Cedarville Cursive', cursive;
 
 }
 
@@ -173,6 +188,7 @@ input [type=text] {
   font-size: 15px;
   border-radius: 18px;
   padding-right: 50px;
+  font-family: 'Cedarville Cursive', cursive;
 }
 
 .weddinglocation, .bsinfo{
@@ -198,6 +214,7 @@ input [type=text] {
   font-size: 15px;
   border-radius: 18px;
   height: 15px;
+  font-family: 'Cedarville Cursive', cursive;
 }
 
 .wstatesize{
@@ -209,6 +226,7 @@ input [type=text] {
   padding: 15px 15px;
   padding-left: 30px;
   padding-right: 400px;
+  font-family: 'Cedarville Cursive', cursive;
 }
 
 .wmemosize{
@@ -221,12 +239,14 @@ input [type=text] {
   border-radius: 18px;
   text-align: center;
   text-align: center;
+  font-family: 'Cedarville Cursive', cursive;
 }
 
 .wcitysize, .wzipcodesize, .wst, .wet{
   background: #ebc5d2;
   font-size: 15px;
   border-radius: 18px;
+  font-family: 'Cedarville Cursive', cursive;
 }
 .bsmemosize{
   background: #E3DBE6;
@@ -239,16 +259,19 @@ input [type=text] {
 
 .weddingbtn{
   text-align: center;
+  padding-left: 800px;
+  padding-top: 100px;
 }
 
   .weddingbtn button{
-    font-size: 25px;
+    font-size: 16px;
     text-align: center;
     cursor: pointer;
     padding: 15px 25px;
-    color:white;
-    background-color:blue;
+    color:black;
+    background-color:#ebc5d2;
     border-radius: 20px;
+    font-family: 'Cedarville Cursive', cursive;
 
   }
 
@@ -259,6 +282,7 @@ input [type=text] {
   width: 185px;
   height: 15px;
   font-size: 13px;
+  font-family: 'Laila', serif;
 }
 
 .bstitle{
@@ -268,6 +292,7 @@ input [type=text] {
   width:400px;
   height: 15px;
   padding-right: 50px;
+  font-family: 'Laila', serif;
 }
 
 .bsaddy{
@@ -276,6 +301,7 @@ input [type=text] {
   font-size: 15px;
   width: 500px;
 height: 15px;
+font-family: 'Laila', serif;
 }
 
 .bsstate{
@@ -287,32 +313,39 @@ height: 15px;
   padding: 15px 15px;
   padding-left: 30px;
   padding-right: 400px;
+  font-family: 'Laila', serif;
 }
 
-.bsbtn{
-  text-align: center;
-}
+
 
 .bscity, .bszip{
   background: #EBDEE5;
   border-radius: 18px;
   font-size: 15px;
+  font-family: 'Laila', serif;
 }
 
 .bsst, .bset{
   background: #E0D8E7;
   border-radius: 18px;
   font-size: 15px;
+  font-family: 'Laila', serif;
 }
 
+.bsbtn{
+  text-align: center;
+  padding-left: 800px;
+  padding-top: 100px;
+}
   .bsbtn button{
-    font-size: 25px;
+    font-size: 16px;
     text-align: center;
     cursor: pointer;
     padding: 15px 25px;
-    color:white;
-    background-color:blue;
+    color:#black;
+    background-color:#B7E5F5;
     border-radius: 20px;
+    font-family: 'Laila', serif;
 
   }
 }

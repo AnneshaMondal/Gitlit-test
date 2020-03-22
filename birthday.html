@@ -2,25 +2,26 @@
 <html lang="en">
 <head>
   <title> Birthday Registry Form </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/formstyle.css">
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
 </head>
 <body>
   <h3 id="birthdayheader"> Birthday Gift Registry</h3>
-  <body background="images/bday.png" class="bdaybackground"></body>
 
-  <div>
-    <form action="action_page.php">
+
+  <form class="form-inline" action="action_page.php">
     <div class=bdayname>
       <label for="bdayname"> Name</label>
       <input type="text" id="bdayname" class="bdaysize" placeholder="Name of the birthday boy/girl...">
     </div>
-</div>
+
 
 <div class="c1">
       <label for="bdayeventdate"> Birthday Party Date</label>
       <input type="date" id="eventdate" class="datesize" name="Event Date">
 
-      <label for="bdayeventtitle"> Event Name </label>
+      <label for="bdayeventtitle" id="test"> Event Name </label>
       <input type="text" id="eventtitle" class="namesize" placeholder="Name of your event...">
 </div>
 
@@ -86,6 +87,7 @@
 
 <div class="c3">
 <label for="bdaycity"> Town/City </label>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <input type="text" id="bdaycity" placeholder="city/town...">
 
 <label for="bdayzipcode"> ZIP Code </label>
@@ -106,7 +108,7 @@
 <label for="bdaymemo"> Birthday Memo </label>
 <input type="text" id="bdaymemo" class= "memosize" placeholder="Please include any information you would like to share with your guests! Birthday themes, etc. ">
 </div>
-
+</form>
 
 </body>
 

@@ -13,16 +13,21 @@ body {
   font-size: 22px;
   line-height: 1.5;
   flex-direction: column;
-  border-style: dotted;
+  font-family: 'Fredericka the Great', cursive;
 }
 h3{
   text-align: center;
+}
+
+@media only screen and (min-width: 975px) {
+.birthdayheader{
+  color: blue;
 }
 .bdayname{
   text-align: center;
 }
 
-.c1{
+.c1, .c3{
   text-align: center;
 }
 .c2{
@@ -35,7 +40,7 @@ h3{
 }
 
 .c4{
-  padding-left: 320px;
+  padding-left: 280px;
 }
 
 .c5{
@@ -49,6 +54,7 @@ input [type=text] {
   border: 1px solid #ccc;
   border-radius: 3px;
   box-sizing: border-box;
+  resize: vertical;
 }
 
 .bdaysize{ /*create class in the input type line*/
@@ -87,7 +93,7 @@ input [type=text] {
 }
 
 .memosize{
-  width: 650px;
+  width: 550px;
   height: 200px;
   font-size: 14px;
 
@@ -106,3 +112,174 @@ input [type=text] {
     border-radius: 20px;
 
   }
+.weddingnames, .bsaddress{
+  padding-left: 100px;
+}
+.weddinginfo{
+  padding-left: 160px;
+}
+.gname, .bname{
+  text-align: center;
+}
+.gname, .bname{
+  width: 300px;
+  height: 15px;
+  font-size: 13px;
+
+}
+
+.wdatesize{
+  width: 185px;
+  height: 15px;
+  font-size: 13px;
+}
+
+.wtitlesize{
+  width:400px;
+  height: 15px;
+  font-size: 13px;
+  padding-right: 50px;
+}
+
+.weddinglocation, .bsinfo{
+  padding-left: 140px;
+}
+.weddinglocation1, .bsaddress1{
+  padding-left: 320px;
+}
+.weddingmemo1{
+  padding-left: 150px;
+}
+
+.bsmemo{
+  padding-left: 200px;
+}
+.weddingtimes, .bstimes{
+  padding-left: 340px;
+}
+
+.waddresssize{
+  width: 500px;
+  font-size: 13px;
+  height: 15px;
+}
+
+.wstatesize{
+  width: 130px;
+  font-size: 13px;
+  height: 30px;
+  padding: 15px 15px;
+  padding-left: 30px;
+  padding-right: 400px;
+}
+
+.wmemosize, .bsmemosize{
+  width: 650px;
+  height: 200px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.weddingbtn{
+  text-align: center;
+}
+
+  .weddingbtn button{
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 25px;
+    color:white;
+    background-color:blue;
+    border-radius: 20px;
+
+  }
+
+.bsdate{
+  width: 185px;
+  height: 15px;
+  font-size: 13px;
+}
+
+.bstitle{
+  width:400px;
+  height: 15px;
+  font-size: 13px;
+  padding-right: 50px;
+}
+
+.bsaddy{
+  width: 500px;
+  font-size: 13px;
+  height: 15px;
+}
+
+.bsstate{
+  width: 130px;
+  font-size: 13px;
+  height: 30px;
+  padding: 15px 15px;
+  padding-left: 30px;
+  padding-right: 400px;
+}
+
+.bsbtn{
+  text-align: center;
+}
+
+  .bsbtn button{
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 25px;
+    color:white;
+    background-color:blue;
+    border-radius: 20px;
+
+  }
+}
+
+
+@media only screen and (min-width:401px) and (max-width:975px){
+body{
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+  .bdayname{
+    text-align: center;
+  }
+  .bdaysize{
+    width: 250px;
+    height: 15px;
+    font-size: 13px;
+    text-align: left;
+  }
+.c1 test{
+  display: inline-block;
+  vertical-align: middle;
+}
+  .datesize{
+    width: 160px;
+    height: 15px;
+    font-size: 10px;
+  }
+  .namesize{
+      width:200px;
+      height: 15px;
+      font-size: 13px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+}

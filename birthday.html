@@ -8,7 +8,14 @@
 </head>
 <body>
   <h3 id="birthdayheader"> Birthday Gift Registry</h3>
-
+  <style> body{
+    background-image: url("images/bday.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70%
+  }
+  </style>
 
   <form class="form-inline" action="action_page.php">
     <div class=bdayname>
@@ -88,19 +95,19 @@
 <div class="c3">
 <label for="bdaycity"> Town/City </label>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<input type="text" id="bdaycity" placeholder="city/town...">
+<input type="text" id="bdaycity" class="bcity" placeholder="city/town...">
 
 <label for="bdayzipcode"> ZIP Code </label>
-<input type="text" id="bdayzipcode" placeholder="012345..."><br/>
+<input type="text" id="bdayzipcode" class="bzip" placeholder="012345..."><br/>
 </div>
 
 <div class="c4">
 <label for="bdaytimestart"> Start Time </label>
-<input type="time" id="bdaytimestart" min="00:00" max="24:00" required>
+<input type="time" id="bdaytimestart" class="st" min="00:00" max="24:00" required>
 
 
 <label for="bdaytimeend"> End Time </label>
-<input type="time" id="bdaytimeend" min="00:00" max="24:00" required>
+<input type="time" id="bdaytimeend" class="et" min="00:00" max="24:00" required>
 </div>
 <br/>
 

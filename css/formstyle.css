@@ -7,9 +7,9 @@
   background-repeat: no-repeat;
 }
 body {
+  padding-top: 60px;
   color:black; /*font of body*/
   background-color: white;
-
   font-size: 22px;
   line-height: 1.5;
   flex-direction: column;
@@ -17,21 +17,21 @@ body {
 }
 h3{
   text-align: center;
+  font-size: 28px;
 }
 
 @media only screen and (min-width: 975px) {
-.birthdayheader{
-  color: blue;
-}
+
 .bdayname{
   text-align: center;
 }
 
 .c1, .c3{
   text-align: center;
+
 }
 .c2{
-  padding-left: 90px;
+  padding-left: 50px;
   font-size: 22px;
 }
 
@@ -47,45 +47,55 @@ h3{
   padding-left: 200px;
 }
 input [type=text] {
+
   width: 100%;
   padding:12px 12px;
   margin: 8px 0;
   display: inline-block;
+
   border: 1px solid #ccc;
   border-radius: 3px;
   box-sizing: border-box;
+  border-color: #de9d9b;
   resize: vertical;
 }
 
 .bdaysize{ /*create class in the input type line*/
   width: 300px;
   height: 15px;
-  font-size: 13px;
+  font-size: 15px;
   text-align: left;
+  border-radius: 18px;
+  background: #f5d1d0;
 }
 .datesize{
   width: 185px;
   height: 15px;
-  font-size: 13px;
+  font-size: 15px;
+  border-radius: 18px;
+  background: #f5d1d0;
 }
 
 .namesize{
   width:400px;
   height: 15px;
-  font-size: 13px;
+  border-radius: 18px;
+  background: #f5d1d0;
   padding-right: 50px;
 }
 
 .addresssize{
   width: 500px;
-  font-size: 13px;
+  border-radius: 18px;
+  background: #f5d1d0;
   height: 15px;
 }
 
 
 .statesize{
   width: 130px;
-  font-size: 13px;
+  border-radius: 18px;
+  background: #f5d1d0;
   height: 30px;
   padding: 15px 15px;
   padding-left: 30px;
@@ -95,7 +105,17 @@ input [type=text] {
 .memosize{
   width: 550px;
   height: 200px;
-  font-size: 14px;
+  font-size: 15px;
+  border-radius: 18px;
+  background: #f5d1d0;
+  border-radius: 18px;
+  background: #f5d1d0;
+
+}
+.bcity, .bzip, .st, .et{
+  border-radius: 18px;
+  background: #f5d1d0;
+  font-size: 15px;
 
 }
 .bdaybtn{
@@ -115,6 +135,12 @@ input [type=text] {
 .weddingnames, .bsaddress{
   padding-left: 100px;
 }
+.weddingnames{
+  padding-top: 50px;
+}
+.weddingtimes, .weddinglocation1{
+  padding-top: 90px;
+}
 .weddinginfo{
   padding-left: 160px;
 }
@@ -122,6 +148,9 @@ input [type=text] {
   text-align: center;
 }
 .gname, .bname{
+  background: #ebc5d2;
+  font-size: 15px;
+  border-radius: 18px;
   width: 300px;
   height: 15px;
   font-size: 13px;
@@ -129,15 +158,20 @@ input [type=text] {
 }
 
 .wdatesize{
+  background: #ebc5d2;
+  font-size: 15px;
+  border-radius: 18px;
   width: 185px;
   height: 15px;
-  font-size: 13px;
+
 }
 
 .wtitlesize{
   width:400px;
   height: 15px;
-  font-size: 13px;
+  background: #ebc5d2;
+  font-size: 15px;
+  border-radius: 18px;
   padding-right: 50px;
 }
 
@@ -160,23 +194,46 @@ input [type=text] {
 
 .waddresssize{
   width: 500px;
-  font-size: 13px;
+  background: #ebc5d2;
+  font-size: 15px;
+  border-radius: 18px;
   height: 15px;
 }
 
 .wstatesize{
   width: 130px;
-  font-size: 13px;
+  background: #ebc5d2;
+  font-size: 15px;
+  border-radius: 18px;
   height: 30px;
   padding: 15px 15px;
   padding-left: 30px;
   padding-right: 400px;
 }
 
-.wmemosize, .bsmemosize{
+.wmemosize{
   width: 650px;
   height: 200px;
-  font-size: 14px;
+  width: 650px;
+  height: 200px;
+  background: #ebc5d2;
+  font-size: 15px;
+  border-radius: 18px;
+  text-align: center;
+  text-align: center;
+}
+
+.wcitysize, .wzipcodesize, .wst, .wet{
+  background: #ebc5d2;
+  font-size: 15px;
+  border-radius: 18px;
+}
+.bsmemosize{
+  background: #E3DBE6;
+  border-radius: 18px;
+  width: 650px;
+  height: 200px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -196,27 +253,36 @@ input [type=text] {
   }
 
 .bsdate{
+  background: #D6E3F3;
+  border-radius: 18px;
+  font-size: 15px;
   width: 185px;
   height: 15px;
   font-size: 13px;
 }
 
 .bstitle{
+  background: #EBDEE5;
+  border-radius: 18px;
+  font-size: 15px;
   width:400px;
   height: 15px;
-  font-size: 13px;
   padding-right: 50px;
 }
 
 .bsaddy{
+  background: #EBDEE5;
+  border-radius: 18px;
+  font-size: 15px;
   width: 500px;
-  font-size: 13px;
-  height: 15px;
+height: 15px;
 }
 
 .bsstate{
+  background: #EBDEE5;
+  border-radius: 18px;
+  font-size: 15px;
   width: 130px;
-  font-size: 13px;
   height: 30px;
   padding: 15px 15px;
   padding-left: 30px;
@@ -225,6 +291,18 @@ input [type=text] {
 
 .bsbtn{
   text-align: center;
+}
+
+.bscity, .bszip{
+  background: #EBDEE5;
+  border-radius: 18px;
+  font-size: 15px;
+}
+
+.bsst, .bset{
+  background: #E0D8E7;
+  border-radius: 18px;
+  font-size: 15px;
 }
 
   .bsbtn button{

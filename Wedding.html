@@ -7,6 +7,14 @@
 </head>
 <body>
   <h3 id="birthdayheader"> Wedding Gift Registry</h3>
+  <style> body{
+    background-image: url("images/wedding.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70%
+  }
+  </style>
 
   <div class="weddingnames">
     <form action="action_page.php">
@@ -96,11 +104,11 @@
 
 <div class="weddingtimes"
 <label for="weddingtimestart"> Start Time </label>
-<input type="time" id="weddingtimestart" min="00:00" max="24:00" required>
+<input type="time" id="weddingtimestart" class="wst" min="00:00" max="24:00" required>
 
 
 <label for="weddingtimeend"> End Time </label>
-<input type="time" id="weddingtimeend" min="00:00" max="24:00" required>
+<input type="time" id="weddingtimeend" class="wet" min="00:00" max="24:00" required>
 </div>
 
 <div class="weddingmemo1">

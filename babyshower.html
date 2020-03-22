@@ -6,7 +6,14 @@
 </head>
 <body>
   <h3 id="birthdayheader"> Baby Shower Gift Registry</h3>
-
+  <style> body{
+    background-image: url("images/bs.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70%
+  }
+  </style>
   <div class="bsinfo">
       <label for="babyshowerdate"> Baby Shower Date </label>
       <input type="date" id="babyshowerdate" class="bsdate" name="Event Date">
@@ -85,10 +92,10 @@
 
 <div class="bstimes">
 <label for="babyshowertimestart"> Start Time </label>
-<input type="time" id="babyshowertimestart" min="00:00" max="24:00" required>
+<input type="time" id="babyshowertimestart" class="bsst" min="00:00" max="24:00" required>
 
 <label for="babyshowertimeend"> End Time </label>
-<input type="time" id="babyshowertimeend" min="00:00" max="24:00" required>
+<input type="time" id="babyshowertimeend" class="bset" min="00:00" max="24:00" required>
 </div>
 
 <div class="bsmemo">

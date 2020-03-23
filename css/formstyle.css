@@ -1,396 +1,367 @@
 * {
-  margin: 0;
-  padding:25px;
-  box-sizing:border-box;
+	margin: 0;
+	padding: 25px;
+	box-sizing: border-box;
 }
-.bdaybackground{
-  background-repeat: no-repeat;
+
+.bdaybackground {
+	background-repeat: no-repeat;
 }
+
 body {
-  padding-top: 60px;
-  color:black; /*font of body*/
-  background-color: white;
-  font-size: 22px;
-  line-height: 1.5;
-  flex-direction: column;
-  font-family: 'Fredericka the Great', cursive;
+	padding-top: 60px;
+	color: black;
+	/*font of body*/
+	background-color: white;
+	font-size: 22px;
+	line-height: 1.5;
+	flex-direction: column;
+	font-family: 'Fredericka the Great', cursive;
 }
-h3{
-  text-align: center;
-  font-size: 28px;
-  padding-bottom: 50px;
+
+h3 {
+	text-align: center;
+	font-size: 28px;
+	padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 975px) {
-
-.bdayname{
-  text-align: center;
-}
-
-.c1{
-  text-align: center;
-
-
-}
-.c2{
-  padding-left: 50px;
-  font-size: 22px;
-}
-
-.c3, c4{
-  text-align: center;
-}
-
-.c4{
-  padding-left: 280px;
-}
-
-.c5{
-  padding-left: 200px;
-}
-input [type=text] {
-
-  width: 100%;
-  padding:12px 12px;
-  margin: 8px 0;
-  display: inline-block;
-
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-  border-color: #de9d9b;
-  resize: vertical;
-}
-
-.bdaysize{ /*create class in the input type line*/
-  width: 300px;
-  height: 15px;
-  font-size: 15px;
-  text-align: left;
-  border-radius: 18px;
-  background: #f5d1d0;
-  font-family: 'Fredericka the Great', cursive;
-}
-.datesize{
-  width: 185px;
-  height: 15px;
-  font-size: 15px;
-  border-radius: 18px;
-  background: #f5d1d0;
-  font-family: 'Fredericka the Great', cursive;
-}
-
-.namesize{
-  width:400px;
-  height: 15px;
-  border-radius: 18px;
-  background: #f5d1d0;
-  padding-right: 50px;
-  font-family: 'Fredericka the Great', cursive;
-}
-
-.addresssize{
-  width: 500px;
-  border-radius: 18px;
-  background: #f5d1d0;
-  height: 15px;
-  font-family: 'Fredericka the Great', cursive;
-}
-
-
-.statesize{
-  width: 130px;
-  border-radius: 18px;
-  background: #f5d1d0;
-  height: 30px;
-  padding: 15px 15px;
-  padding-left: 30px;
-  padding-right: 400px;
-  font-family: 'Fredericka the Great', cursive;
-}
-
-.memosize{
-  width: 550px;
-  height: 200px;
-  font-size: 15px;
-  border-radius: 18px;
-  background: #f5d1d0;
-  border-radius: 18px;
-  background: #f5d1d0;
-  font-family: 'Fredericka the Great', cursive;
-
-}
-.bcity, .bzip, .st, .et{
-  border-radius: 18px;
-  background: #f5d1d0;
-  font-size: 15px;
-  font-family: 'Fredericka the Great', cursive;
-
-}
-.bdaybtn{
-  text-align: center;
-  padding-left: 800px;
-  padding-top: 100px;
-
-}
-
-  .bdaybtn button{
-    font-size: 16px;
-    text-align: center;
-    cursor: pointer;
-    padding: 15px 25px;
-    color:black;
-    background-color:#eca8a6;
-    border-radius: 20px;
-    font-family: 'Fredericka the Great', cursive;
-
-  }
-.weddingnames, .bsaddress{
-  padding-left: 100px;
-}
-.weddingnames{
-  padding-top: 50px;
-}
-.weddingtimes, .weddinglocation1{
-  padding-top: 90px;
-}
-.weddinginfo{
-  padding-left: 160px;
-}
-.gname, .bname{
-  text-align: center;
-}
-.gname, .bname{
-  background: #ebc5d2;
-  font-size: 15px;
-  border-radius: 18px;
-  width: 300px;
-  height: 15px;
-  font-size: 13px;
-  font-family: 'Cedarville Cursive', cursive;
-
-}
-
-.wdatesize{
-  background: #ebc5d2;
-  font-size: 15px;
-  border-radius: 18px;
-  width: 185px;
-  height: 15px;
-  font-family: 'Cedarville Cursive', cursive;
-
-}
-
-.wtitlesize{
-  width:400px;
-  height: 15px;
-  background: #ebc5d2;
-  font-size: 15px;
-  border-radius: 18px;
-  padding-right: 50px;
-  font-family: 'Cedarville Cursive', cursive;
-}
-
-.weddinglocation, .bsinfo{
-  padding-left: 140px;
-}
-.weddinglocation1, .bsaddress1{
-  padding-left: 320px;
-}
-.weddingmemo1{
-  padding-left: 150px;
-}
-
-.bsmemo{
-  padding-left: 200px;
-}
-.weddingtimes, .bstimes{
-  padding-left: 340px;
-}
-
-.waddresssize{
-  width: 500px;
-  background: #ebc5d2;
-  font-size: 15px;
-  border-radius: 18px;
-  height: 15px;
-  font-family: 'Cedarville Cursive', cursive;
-}
-
-.wstatesize{
-  width: 130px;
-  background: #ebc5d2;
-  font-size: 15px;
-  border-radius: 18px;
-  height: 30px;
-  padding: 15px 15px;
-  padding-left: 30px;
-  padding-right: 400px;
-  font-family: 'Cedarville Cursive', cursive;
-}
-
-.wmemosize{
-  width: 650px;
-  height: 200px;
-  width: 650px;
-  height: 200px;
-  background: #ebc5d2;
-  font-size: 15px;
-  border-radius: 18px;
-  text-align: center;
-  text-align: center;
-  font-family: 'Cedarville Cursive', cursive;
-}
-
-.wcitysize, .wzipcodesize, .wst, .wet{
-  background: #ebc5d2;
-  font-size: 15px;
-  border-radius: 18px;
-  font-family: 'Cedarville Cursive', cursive;
-}
-.bsmemosize{
-  background: #E3DBE6;
-  border-radius: 18px;
-  width: 650px;
-  height: 200px;
-  font-size: 15px;
-  text-align: center;
-}
-
-.weddingbtn{
-  text-align: center;
-  padding-left: 800px;
-  padding-top: 100px;
-}
-
-  .weddingbtn button{
-    font-size: 16px;
-    text-align: center;
-    cursor: pointer;
-    padding: 15px 25px;
-    color:black;
-    background-color:#ebc5d2;
-    border-radius: 20px;
-    font-family: 'Cedarville Cursive', cursive;
-
-  }
-
-.bsdate{
-  background: #D6E3F3;
-  border-radius: 18px;
-  font-size: 15px;
-  width: 185px;
-  height: 15px;
-  font-size: 13px;
-  font-family: 'Laila', serif;
-}
-
-.bstitle{
-  background: #EBDEE5;
-  border-radius: 18px;
-  font-size: 15px;
-  width:400px;
-  height: 15px;
-  padding-right: 50px;
-  font-family: 'Laila', serif;
-}
-
-.bsaddy{
-  background: #EBDEE5;
-  border-radius: 18px;
-  font-size: 15px;
-  width: 500px;
-height: 15px;
-font-family: 'Laila', serif;
-}
-
-.bsstate{
-  background: #EBDEE5;
-  border-radius: 18px;
-  font-size: 15px;
-  width: 130px;
-  height: 30px;
-  padding: 15px 15px;
-  padding-left: 30px;
-  padding-right: 400px;
-  font-family: 'Laila', serif;
-}
-
-
-
-.bscity, .bszip{
-  background: #EBDEE5;
-  border-radius: 18px;
-  font-size: 15px;
-  font-family: 'Laila', serif;
-}
-
-.bsst, .bset{
-  background: #E0D8E7;
-  border-radius: 18px;
-  font-size: 15px;
-  font-family: 'Laila', serif;
-}
-
-.bsbtn{
-  text-align: center;
-  padding-left: 800px;
-  padding-top: 100px;
-}
-  .bsbtn button{
-    font-size: 16px;
-    text-align: center;
-    cursor: pointer;
-    padding: 15px 25px;
-    color:#black;
-    background-color:#B7E5F5;
-    border-radius: 20px;
-    font-family: 'Laila', serif;
-
-  }
+	.c2 {
+		padding-left: 50px;
+		font-size: 22px;
+	}
+	.c3,
+	.c1,
+	.bodyname,
+	.c4 {
+		text-align: center;
+	}
+	.c4 {
+		padding-left: 280px;
+	}
+	.c5 {
+		padding-left: 200px;
+	}
+	input [type=text] {
+		width: 100%;
+		padding: 12px 12px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		box-sizing: border-box;
+		border-color: #de9d9b;
+		resize: vertical;
+	}
+	/* ********* CSS for birthday template ************* */
+	.bdaysize {
+		/*create class in the input type line*/
+		width: 300px;
+		height: 15px;
+		font-size: 15px;
+		text-align: left;
+		border-radius: 18px;
+		background: #f5d1d0;
+		font-family: 'Fredericka the Great', cursive;
+	}
+	.datesize {
+		width: 185px;
+		height: 15px;
+		font-size: 15px;
+		border-radius: 18px;
+		background: #f5d1d0;
+		font-family: 'Fredericka the Great', cursive;
+	}
+	.namesize {
+		width: 400px;
+		height: 15px;
+		border-radius: 18px;
+		background: #f5d1d0;
+		padding-right: 50px;
+		font-family: 'Fredericka the Great', cursive;
+	}
+	.addresssize {
+		width: 500px;
+		border-radius: 18px;
+		background: #f5d1d0;
+		height: 15px;
+		font-family: 'Fredericka the Great', cursive;
+	}
+	.statesize {
+		width: 130px;
+		border-radius: 18px;
+		background: #f5d1d0;
+		height: 30px;
+		padding: 15px 15px;
+		padding-left: 30px;
+		padding-right: 400px;
+		font-family: 'Fredericka the Great', cursive;
+	}
+	.memosize {
+		width: 550px;
+		height: 200px;
+		font-size: 15px;
+		border-radius: 18px;
+		background: #f5d1d0;
+		border-radius: 18px;
+		background: #f5d1d0;
+		font-family: 'Fredericka the Great', cursive;
+	}
+	.bcity,
+	.bzip,
+	.st,
+	.et {
+		border-radius: 18px;
+		background: #f5d1d0;
+		font-size: 15px;
+		font-family: 'Fredericka the Great', cursive;
+	}
+	.bdaybtn {
+		text-align: center;
+		padding-left: 800px;
+		padding-top: 100px;
+	}
+	.bdaybtn button {
+		font-size: 16px;
+		text-align: center;
+		cursor: pointer;
+		padding: 15px 25px;
+		color: black;
+		background-color: #eca8a6;
+		border-radius: 20px;
+		font-family: 'Fredericka the Great', cursive;
+	}
+	/* ********* CSS for birthday template ************* */
+	/* ********* CSS for wedding template ************* */
+	.weddingnames,
+	.bsaddress {
+		padding-left: 100px;
+	}
+	.weddingnames {
+		padding-top: 50px;
+	}
+	.weddingtimes,
+	.weddinglocation1 {
+		padding-top: 90px;
+	}
+	.weddinginfo {
+		padding-left: 160px;
+	}
+	.gname,
+	.bname {
+		text-align: center;
+	}
+	.gname,
+	.bname {
+		background: #ebc5d2;
+		font-size: 15px;
+		border-radius: 18px;
+		width: 300px;
+		height: 15px;
+		font-size: 13px;
+		font-family: 'Cedarville Cursive', cursive;
+	}
+	.wdatesize {
+		background: #ebc5d2;
+		font-size: 15px;
+		border-radius: 18px;
+		width: 185px;
+		height: 15px;
+		font-family: 'Cedarville Cursive', cursive;
+	}
+	.wtitlesize {
+		width: 400px;
+		height: 15px;
+		background: #ebc5d2;
+		font-size: 15px;
+		border-radius: 18px;
+		padding-right: 50px;
+		font-family: 'Cedarville Cursive', cursive;
+	}
+	.weddinglocation,
+	.bsinfo {
+		padding-left: 140px;
+	}
+	.weddinglocation1,
+	.bsaddress1 {
+		padding-left: 320px;
+	}
+	.weddingmemo1 {
+		padding-left: 150px;
+	}
+	.bsmemo {
+		padding-left: 200px;
+	}
+	.weddingtimes,
+	.bstimes {
+		padding-left: 340px;
+	}
+	.waddresssize {
+		width: 500px;
+		background: #ebc5d2;
+		font-size: 15px;
+		border-radius: 18px;
+		height: 15px;
+		font-family: 'Cedarville Cursive', cursive;
+	}
+	.wstatesize {
+		width: 130px;
+		background: #ebc5d2;
+		font-size: 15px;
+		border-radius: 18px;
+		height: 30px;
+		padding: 15px 15px;
+		padding-left: 30px;
+		padding-right: 400px;
+		font-family: 'Cedarville Cursive', cursive;
+	}
+	.wmemosize {
+		width: 650px;
+		height: 200px;
+		width: 650px;
+		height: 200px;
+		background: #ebc5d2;
+		font-size: 15px;
+		border-radius: 18px;
+		text-align: center;
+		text-align: center;
+		font-family: 'Cedarville Cursive', cursive;
+	}
+	.wcitysize,
+	.wzipcodesize,
+	.wst,
+	.wet {
+		background: #ebc5d2;
+		font-size: 15px;
+		border-radius: 18px;
+		font-family: 'Cedarville Cursive', cursive;
+	}
+	/* ********* CSS for wedding template ************* */
+	/* ********* CSS for baby shower template ************* */
+	.bsmemosize {
+		background: #E3DBE6;
+		border-radius: 18px;
+		width: 650px;
+		height: 200px;
+		font-size: 15px;
+		text-align: center;
+	}
+	.weddingbtn {
+		text-align: center;
+		padding-left: 800px;
+		padding-top: 100px;
+	}
+	.weddingbtn button {
+		font-size: 16px;
+		text-align: center;
+		cursor: pointer;
+		padding: 15px 25px;
+		color: black;
+		background-color: #ebc5d2;
+		border-radius: 20px;
+		font-family: 'Cedarville Cursive', cursive;
+	}
+	.bsdate {
+		background: #D6E3F3;
+		border-radius: 18px;
+		font-size: 15px;
+		width: 185px;
+		height: 15px;
+		font-size: 13px;
+		font-family: 'Laila', serif;
+	}
+	.bstitle {
+		background: #EBDEE5;
+		border-radius: 18px;
+		font-size: 15px;
+		width: 400px;
+		height: 15px;
+		padding-right: 50px;
+		font-family: 'Laila', serif;
+	}
+	.bsaddy {
+		background: #EBDEE5;
+		border-radius: 18px;
+		font-size: 15px;
+		width: 500px;
+		height: 15px;
+		font-family: 'Laila', serif;
+	}
+	.bsstate {
+		background: #EBDEE5;
+		border-radius: 18px;
+		font-size: 15px;
+		width: 130px;
+		height: 30px;
+		padding: 15px 15px;
+		padding-left: 30px;
+		padding-right: 400px;
+		font-family: 'Laila', serif;
+	}
+	.bscity,
+	.bszip {
+		background: #EBDEE5;
+		border-radius: 18px;
+		font-size: 15px;
+		font-family: 'Laila', serif;
+	}
+	.bsst,
+	.bset {
+		background: #E0D8E7;
+		border-radius: 18px;
+		font-size: 15px;
+		font-family: 'Laila', serif;
+	}
+	.bsbtn {
+		text-align: center;
+		padding-left: 800px;
+		padding-top: 100px;
+	}
+	.bsbtn button {
+		font-size: 16px;
+		text-align: center;
+		cursor: pointer;
+		padding: 15px 25px;
+		color: #black;
+		background-color: #B7E5F5;
+		border-radius: 20px;
+		font-family: 'Laila', serif;
+	}
 }
 
 
-@media only screen and (min-width:401px) and (max-width:975px){
-body{
-  font-size: 15px;
-  display: inline-block;
-  vertical-align: middle;
+/**** started working on re-sizing the templates in the other browser sizes */
+
+@media only screen and (min-width:401px) and (max-width:975px) {
+	body {
+		font-size: 15px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.bdayname {
+		text-align: center;
+	}
+	.bdaysize {
+		width: 250px;
+		height: 15px;
+		font-size: 13px;
+		text-align: left;
+	}
+	.c1 test {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.datesize {
+		width: 160px;
+		height: 15px;
+		font-size: 10px;
+	}
+	.namesize {
+		width: 200px;
+		height: 15px;
+		font-size: 13px;
+	}
 }
-
-  .bdayname{
-    text-align: center;
-  }
-  .bdaysize{
-    width: 250px;
-    height: 15px;
-    font-size: 13px;
-    text-align: left;
-  }
-.c1 test{
-  display: inline-block;
-  vertical-align: middle;
-}
-  .datesize{
-    width: 160px;
-    height: 15px;
-    font-size: 10px;
-  }
-  .namesize{
-      width:200px;
-      height: 15px;
-      font-size: 13px;
-    }
-  }
-
-
-
-
-
-
-
-
-
 
 
 }

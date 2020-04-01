@@ -1,0 +1,41 @@
+.registryform{
+  text-align: center;
+}
+.table{
+  text-align: center;
+}
+nav {
+  float: left;
+  border-style: none;
+}
+.logo img {
+  float: left;
+}
+.nav {
+  background-color: white;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: #72bcd4;
+  text-align: right;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 23px;
+  width: 18%;
+}
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: white;
+  color: #508fa3;
+}
+/* Add a color to the active/current link */
+.nav a.active {
+  background-color: white;
+  color: #508fa3;
+}
+
+.registrysubmit{
+  padding-top: 60px;
+}

@@ -36,4 +36,4 @@ else {
 mysqli_close($conn); // Clossing Connection
 }
 }
-?> 
+?>

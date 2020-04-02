@@ -16,7 +16,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
     background: transparent;
 }
-body {
+.loginbody {
     background: #DCDDDF url(https://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);
     color: #000;
     font: 14px Arial;

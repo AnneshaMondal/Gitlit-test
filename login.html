@@ -3,14 +3,67 @@
    <head>
       <title> GitLit login </title>
 
+      <script type = "text/javascript">
+      function validate() {
+        
+        if( document.myForm.key.value == "123" ) {
+           alert( "Welcome admin" );
+           window.location.href = 'admin.html';
+           return false;
+        }
+
+        if( document.myForm.username.value == "user1" || document.myForm.password.value == "password1") {
+           alert( "Welcome user1" );
+           window.location.href = 'index.html';
+           return false;
+        }
+
+        if( document.myForm.username.value == "user2" || document.myForm.password.value == "password2") {
+           alert( "Welcome user2" );
+           window.location.href = 'index.html';
+           return false;
+        }
+
+        
+     }
+</script>
 
 
+<script type = "text/javascript">
+function navvalidate() {
 
+   if( document.myForm.loginnav.value == "123" ) {
+      window.location.href = "admin.html";
+      return false;
+   }
+   else
+   {
+     window.location.href="index.html"
+     return false;
+   }
 
+   return( false);
+}
+</script>
 
+</script>
 
+<script type = "text/javascript">
+function navvalidate() {
 
+   if(!( document.myForm.ps.value == "" ) ){
+      window.location.href = "index1.html";
+      return false;
+   }
+   else
+   {
+     window.location.href="index.html"
+     return false;
+   }
 
+   return( false);
+}
+</script>
 
 
       <meta name="viewport" content="width=device-width, initial-scale=1">

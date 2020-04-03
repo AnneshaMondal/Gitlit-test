@@ -3,64 +3,35 @@
    <head>
       <title> GitLit login </title>
 
-      <script type = "text/javascript">
-      function validate() {
-
-         if( document.myForm.admin.value == "123" ) {
-            window.location.href = "admin.html";
-            return false;
-         }
-         else
-         {
-           window.location.href="index.html"
-           return false;
-         }
-<<<<<<< HEAD
-
-=======
->>>>>>> 8dc78b7d89e7b810a48bd0684156be821830d40f
-         return( false);
-</script>
 
 
-<script type = "text/javascript">
-function navvalidate() {
 
-   if( document.myForm.loginnav.value == "123" ) {
-      window.location.href = "admin.html";
-      return false;
-   }
-   else
-   {
-     window.location.href="index.html"
-     return false;
-   }
 
-   return( false);
-}
-</script>
 
-</script>
 
-<script type = "text/javascript">
-function navvalidate() {
 
-   if(!( document.myForm.ps.value == "" ) ){
-      window.location.href = "index1.html";
-      return false;
-   }
-   else
-   {
-     window.location.href="index.html"
-     return false;
-   }
 
-   return( false);
-}
-</script>
 
 
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script type = "text/javascript">
+            function validate() {
+
+               if( document.myForm.admin.value == "123" ) {
+                  window.location.href = "admin.html";
+                  return false;
+               }
+               else
+               {
+                 window.location.href="index.html"
+                 return false;
+               }
+
+               return( false);
+             }
+      </script>
+
+
       <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/login.css">
    </head>
@@ -81,7 +52,7 @@ function navvalidate() {
    <body>
      <div class="container">
     <section id="content">
-        <form method="post" name="myForm" onsubmit="return(validate()); return(navvalidate());" >
+        <form method="post" name="myForm" onsubmit="return(validate());" >
             <h1>Login Form</h1>
             <div>
                 <input type="text" placeholder="Username" id="us" name="us" required="" id="username" />

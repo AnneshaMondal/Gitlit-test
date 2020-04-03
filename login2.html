@@ -4,6 +4,26 @@
    <head>
 
       <title> GitLit Create Account  </title>
+
+
+<script type = "text/javascript">
+      function navvalidate() {
+
+         if(!( document.myForm.ps.value == "" ) ){
+            window.location.href = "index1.html";
+            return false;
+         }
+         else
+         {
+           window.location.href="index.html"
+           return false;
+         }
+
+         return( false);
+      }
+</script>
+
+
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/login.css">
@@ -17,20 +37,20 @@
          <a href="index.html">Home</a>
          <a href="createregistry.html">Create Registry</a>
          <a href="findregistry.html">Find Registry</a>
-         <a href="login2.html">Login</a>
+         <a href="login.html">Login</a>
       </div>
    </div>
 
    <body>
      <div class="container">
     <section id="content">
-        <form method="POST" action="createAccount.php">
+        <form method="POST" name="myForm" onsubmit="return(navvalidate());">
             <h1>Register Account Form</h1>
             <div>
                 <input type="text" placeholder="Username" required="" id="username" />
             </div>
             <div>
-                <input type="password" placeholder="Password" required="" id="password" />
+                <input type="password" placeholder="Password" id="ps" name="ps" required="" id="password" />
             </div>
             <div>
                 <input type="text" placeholder="Gender" required="" id="gender" />
@@ -42,7 +62,8 @@
                 <input type="email" placeholder="Email" required="" id="email" />
             </div>
             <div>
-                <input type="submit" value="Log in" />
+
+                <input type="submit" value="Log in"  />
             </div>
         </form><!-- form -->
 

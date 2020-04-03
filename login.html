@@ -15,7 +15,16 @@
            window.location.href="index.html"
            return false;
          }
+         if( document.myForm.username.value == "user1" || document.myForm.password.value == "password1") {
+              alert( "Welcome user1" );
+              window.location.href = 'user1.html';
+              return false;
+           }
 
+           if( document.myForm.username.value == "user2" || document.myForm.password.value == "password2") {
+              alert( "Welcome user2" );
+              window.location.href = 'user2.html';
+              return false;
          return( false);
       }
 </script>

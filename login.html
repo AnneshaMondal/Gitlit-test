@@ -3,6 +3,7 @@
    <head>
       <title> GitLit login </title>
 
+<<<<<<< HEAD
       <script type = "text/javascript">
       function validate() {
         
@@ -64,9 +65,37 @@ function navvalidate() {
    return( false);
 }
 </script>
+=======
+
+
+
+
+
+
+
+
+>>>>>>> 8a4acf1008ea958c77c4787b52a2a4efeb9c9bdd
 
 
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script type = "text/javascript">
+            function validate() {
+
+               if( document.myForm.admin.value == "123" ) {
+                  window.location.href = "admin.html";
+                  return false;
+               }
+               else
+               {
+                 window.location.href="index.html"
+                 return false;
+               }
+
+               return( false);
+             }
+      </script>
+
+
       <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/login.css">
    </head>
@@ -80,7 +109,7 @@ function navvalidate() {
          <a href="createregistry.html">Create Registry</a>
          <a href="findregistry.html">Find Registry</a>
          <a href="login.html" id="loginnav" name="loginnav">Login</a>
-         <a href="login.html" id="loginnav1" name="loginnav1" style="display">Logout</a>
+
       </div>
    </div>
 
@@ -106,7 +135,7 @@ function navvalidate() {
                 <a href="#">Lost your password?</a>
             </div>
           </form>
-<form method="post" action="register.html">
+<form method="post" action="login2.html">
   <div>
             <input type="submit" value="Register" />
 </div>

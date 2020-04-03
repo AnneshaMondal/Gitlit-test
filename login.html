@@ -2,6 +2,25 @@
 <html lang="en">
    <head>
       <title> GitLit login </title>
+
+      <script type = "text/javascript">
+      function validate() {
+
+         if( document.myForm.admin.value == "123" ) {
+            window.location.href = "admin.html";
+            return false;
+         }
+         else
+         {
+           window.location.href="index.html"
+           return false;
+         }
+
+         return( false);
+      }
+</script>
+
+
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/login.css">
@@ -22,7 +41,7 @@
    <body>
      <div class="container">
     <section id="content">
-        <form method="post" action="index.html" >
+        <form method="post" name="myForm" onsubmit="return(validate());" >
             <h1>Login Form</h1>
             <div>
                 <input type="text" placeholder="Username" required="" id="username" />
@@ -31,11 +50,11 @@
                 <input type="password" placeholder="Password" required="" id="password" />
             </div>
             <div>
-                <input type="key" placeholder="Admin key" id="key" name="key"/>
+                <input type="key" placeholder="Admin key" id="admin" name="admin"/>
             </div>
 
 
-          <form method="post" action="index.html" >
+          <form method="post" >
             <div>
                 <input type="submit" value="Log in" />
                 <a href="#">Lost your password?</a>

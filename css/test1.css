@@ -75,3 +75,39 @@ input[type=submit]:hover {
   border-radius: 20px;
   font-family: 'Laila', serif;
 }
+
+
+.birthdaybtn{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.birthdaybtn button {
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 25px;
+  color: #black;
+  background-color:#F9D7D5;
+  border-radius: 20px;
+  border-color: #f5afab;
+  font-family: 'Laila', serif;
+}
+
+
+.weddingbtn{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.weddingbtn button {
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 25px;
+  color: #black;
+  background-color:#FDF3F7;
+  border-radius: 20px;
+  border-color: #f5afab;
+  font-family: 'Cedarville Cursive', cursive;
+}

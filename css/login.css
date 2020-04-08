@@ -16,14 +16,18 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
     background: transparent;
 }
+
 body {
     background: #DCDDDF url(https://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);
     color: #000;
-    font: 14px Arial;
+    font: 14px Times;
     margin: 0 auto;
     padding: 0;
     position: relative;
+    text-align: center;
+
 }
+
 h1{ font-size:28px;}
 h2{ font-size:26px;}
 h3{ font-size:18px;}
@@ -278,13 +282,11 @@ form:after {
 
 
 
-
-.navigation{
-  padding-bottom: 150px;
-}
+@media only screen and (min-width: 975px) {
 nav {
   float: left;
   border-style: none;
+
 }
 .logo img {
   float: left;
@@ -311,9 +313,67 @@ nav {
 /* Add a color to the active/current link */
 .nav a.active {
   background-color: white;
-  color: #508fa3
+  color: #508fa3;
+}
 }
 
+@media only screen and (min-width:401px) and (max-width:975px) {
+  nav {
+    float: left;
+    border-style: none;
+  }
+  .logo img {
+    float: left;
+  }
+  .nav {
+    background-color: white;
+    overflow: hidden;
+  }
+  .nav a {
+    float: left;
+    color: #72bcd4;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 12%;
+  }
+  .nav a:hover {
+    background-color: white;
+    color: #508fa3;
+  }
+  .nav a.active {
+    background-color: white;
+    color: #508fa3;
+  }
+
+}
+
+@media only screen and (max-width:400px) {
+	nav {
+		float: center;
+		border-style: none;
+	}
+	.logo img {
+		float: center;
+	}
+	.nav {
+		background-color: white;
+		overflow: hidden;
+	}
+	.nav a {
+		float: hidden;
+		color: #72bcd4;
+		text-align: center;
+		padding: 2px 2px;
+		text-decoration: none;
+		font-size: 16px;
+		width: 5%
+	}
+	.navigation {
+		text-align: center;
+	}
+}
 
 
 
@@ -371,6 +431,7 @@ textarea {
   padding-left: 120px;
   padding-right: 120px;
   font-size: 20px;
+  padding-top: 80px;
 }
 
 .paragraph{
@@ -378,4 +439,15 @@ textarea {
   padding-left: 120px;
   padding-right: 120px;
   font-size: 20px;
+  padding-top: 80px;
+
+}
+
+.passparagraph{
+  padding-top: 80px;
+  text-align: center;
+  font-size: 20px;
+  padding-right: 100px;
+  padding-left: 50px;
+
 }

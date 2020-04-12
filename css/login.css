@@ -26,6 +26,9 @@ h1{
   padding:0px 0px 70px 0px;
   border: #72bcd4 4px solid;
 }
+.box1{
+  padding-bottom: 60px;
+}
 
 
 
@@ -347,4 +350,9 @@ textarea {
   .header-right {
     float: none;
   }
+}
+
+
+.submitbtn{
+  padding-bottom: 225px;
 }

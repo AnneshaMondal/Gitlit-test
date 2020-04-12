@@ -25,6 +25,7 @@
 	.crbtn {
 		padding-top: 150px;
 		padding-left: 625px;
+		padding-bottom: 25px;
 	}
 	.crbtn button {
 		font-size: 15px;
@@ -139,6 +140,7 @@
 	.crbtn {
 		padding-top: 150px;
 		padding-left: 170px;
+		padding-bottom: 25px;
 	}
 	.crbtn button {
 		font-size: 14px;

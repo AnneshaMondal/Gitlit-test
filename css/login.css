@@ -293,3 +293,58 @@ textarea {
   padding-left: 50px;
 
 }
+
+
+
+.header {
+	padding-top: 35px;
+  overflow: hidden;
+  background-color: #72bcd4;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 10px;
+
+}
+
+.header a.logo {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #72bcd4;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+	.header{
+		padding-top: 27px;
+		font-size: 13px;
+	}
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}

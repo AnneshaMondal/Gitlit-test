@@ -80,6 +80,7 @@ input[type=submit]:hover {
 .contactbtn{
   text-align: center;
   padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .contactbtn button {
@@ -90,6 +91,7 @@ input[type=submit]:hover {
   color: #black;
   border-radius: 20px;
   font-family: Times;
+
 }
 
 

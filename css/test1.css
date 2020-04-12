@@ -77,6 +77,22 @@ input[type=submit]:hover {
 }
 
 
+.contactbtn{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contactbtn button {
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 25px;
+  color: #black;
+  border-radius: 20px;
+  font-family: Times;
+}
+
+
 .birthdaybtn{
   text-align: center;
   padding-top: 20px;
@@ -110,4 +126,162 @@ input[type=submit]:hover {
   border-radius: 20px;
   border-color: #f5afab;
   font-family: 'Cedarville Cursive', cursive;
+}
+
+
+
+
+@media only screen and (min-width: 975px) {
+nav {
+  float: left;
+  border-style: none;
+
+}
+.logo img {
+  float: left;
+}
+.nav {
+  background-color: white;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: #72bcd4;
+  text-align: right;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 23px;
+  width: 18%;
+}
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: white;
+  color: #508fa3;
+}
+/* Add a color to the active/current link */
+.nav a.active {
+  background-color: white;
+  color: #508fa3;
+}
+}
+
+@media only screen and (min-width:401px) and (max-width:975px) {
+  nav {
+    float: left;
+    border-style: none;
+  }
+  .logo img {
+    float: left;
+  }
+  .nav {
+    background-color: white;
+    overflow: hidden;
+  }
+  .nav a {
+    float: left;
+    color: #72bcd4;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 12%;
+  }
+  .nav a:hover {
+    background-color: white;
+    color: #508fa3;
+  }
+  .nav a.active {
+    background-color: white;
+    color: #508fa3;
+  }
+
+}
+
+@media only screen and (max-width:400px) {
+	nav {
+		float: center;
+		border-style: none;
+	}
+	.logo img {
+		float: center;
+	}
+	.nav {
+		background-color: white;
+		overflow: hidden;
+	}
+	.nav a {
+		float: hidden;
+		color: #72bcd4;
+		text-align: center;
+		padding: 2px 2px;
+		text-decoration: none;
+		font-size: 16px;
+		width: 5%
+	}
+	.navigation {
+		text-align: center;
+	}
+
+  .register{
+    padding-left:
+  }
+}
+
+
+
+
+
+
+.header {
+	padding-top: 35px;
+  overflow: hidden;
+  background-color: #72bcd4;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 10px;
+
+}
+
+.header a.logo {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #72bcd4;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+	.header{
+		padding-top: 27px;
+		font-size: 13px;
+	}
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
 }

@@ -297,7 +297,9 @@ textarea {
 
 }
 
-
+#spaceparagraph{
+  padding-top: 130px;
+}
 
 .header {
 	padding-top: 35px;
@@ -355,4 +357,28 @@ textarea {
 
 .submitbtn{
   padding-bottom: 225px;
+
+}
+.submitbtn1{
+  padding-top:200px;
+}
+
+.frh2{
+  padding-top: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }

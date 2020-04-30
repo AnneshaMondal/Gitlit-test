@@ -1,9 +1,23 @@
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["email"].value;
+  var y = document.forms["myForm"]["password"].value;
+  if (x == "" || y=="") {
+    alert("Email and password must be filled out");
+    return false;
+  }
+}
+</script>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
       <title> GitLit login </title>
 
-            <script type = "text/javascript">
+      <!--      <script type = "text/javascript">
             function validate() {
 
               if( document.myForm.adminkey.value == "123" ) {
@@ -66,7 +80,7 @@
       </script>
 
 
-
+-->
 
 
 
@@ -75,7 +89,7 @@
     </head>
 
 
-    <div class="navigation">
+<div class="navigation">
        <div class="logo">
           <img src="images/logo.png">
        </div>
@@ -83,25 +97,37 @@
           <a href="index.html">Home</a>
           <a href="createregistry.html">Create Registry</a>
           <a href="findregistry.html">Find Registry</a>
-          <a href="login.html" id="loginnav" name="loginnav">Login</a>
+
+    <a href="login.html" id="loginnav" name="loginnav">Login</a>
+
+
+
+
+
 
        </div>
-    </div>
+</div>
 
-    <body>
-      <form onClick="validate()" id="#form" method="post" >
+
+
+<body>
+  <form name="myForm" id="#form" method="post" >
+
 <div class="box">
 <h1>Login</h1>
+
+
+
 <div class="logininputs">
 <input type="email" name="email" placeholder="your@email.com" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
 
 <input type="password" name="password" placeholder="******" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
 <input type="adminkey" name="adminkey" placeholder=""="admin key" onFocus="field_focus(this, 'key');" onblur="field_blur(this, 'key');" class="key" />
 </div>
-<a href="index1.html"><div class="btn">Sign In</div></a> <!-- End Btn -->
+<a href="index1.html"><div class="btn" onClick="return validateForm()">Sign In</div></a> <!-- End Btn -->
 
 <a href="login2.html"><div id="btn2">Sign Up</div></a> <!-- End Btn2 -->
-<a href="forgotpass.html"><div id="btn3">Forgot Password?</div></a> <!-- End Btn2 -->
+<a href="forgotpass.html"><div id="btn3" >Forgot Password?</div></a> <!-- End Btn2 -->
 
 </div> <!-- End Box -->
 <p id="spaceparagraph"> </p>

@@ -1,3 +1,24 @@
+<script>
+function evalGroup(){
+  var group=document.registryform.option;
+  if (var i=0; i<group.length; i++){
+    {
+    if (group[i].checked)
+      {break;}
+    }
+    {
+      if (i==group.length)
+      return alert("Please select a registry type.");
+    }
+
+  }
+
+}
+
+</script>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -13,7 +34,7 @@
          <a href="index.html">Home</a>
          <a href="createregistry.html">Create Registry</a>
          <a href="findregistry.html">Find Registry</a>
-         <a href="login.html">Login</a>
+         <a href="logout.html">Logout</a>
       </div>
    </div>
    <body>
@@ -22,7 +43,7 @@
       </div>
    </body>
    <div class="registryform">
-      <form>
+      <form name="registrychoies">
          <div class="radio1">
             <input type="radio" name="option">
             <label for="r1" class="r1label"> Baby Shower </label></br>

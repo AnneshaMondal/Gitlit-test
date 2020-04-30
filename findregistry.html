@@ -1,3 +1,20 @@
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["email"].value;
+  if (x == "") {
+    alert("Please enter the registry ID");
+    return false;
+  }
+  else{
+    window.location.href="foundregistry.html"
+  }
+}
+
+</script>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -13,7 +30,7 @@
          <a href="index.html">Home</a>
          <a href="createregistry.html">Create Registry</a>
          <a href="findregistry.html">Find Registry</a>
-         <a href="login.html">Login</a>
+         <a href="login.html">Logout</a>
       </div>
    </div>
    </div>
@@ -31,14 +48,15 @@
       </div> -->
 
 
-      <form action="foundregistry.html">
+<form name="myForm">
   <input name="email" type="text" class="feedback-input" placeholder="Registry Code" />
-
+</form>
 <div class="submitbtn">
-<a href="foundregisry.html"><input type="submit" value="SUBMIT"/>
+<!--<a href="foundregisry.html" onClick="validateForm()"><input type="submit" value="SUBMIT"/>-->
+<button class="submit" onClick="validateForm()"> Submit</button>
 </div>
 
-</form>
+
    </body>
 
     <div class="header">
@@ -46,7 +64,7 @@
       <div class="header-right">
         <a class="active" href="#home">Home</a>
         <a href="contact.html">Contact</a>
-        <a href="login.html">Login</a>
+        <a href="logout.html">Login</a>
       </div>
     </div>
 

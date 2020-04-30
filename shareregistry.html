@@ -1,3 +1,20 @@
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["name"].value;
+  var y = document.forms["myForm"]["email"].value;
+  if (x == "" || y=="") {
+    alert("Event name and recipient emails  must be filled out");
+    return false;
+  }
+  else{
+    window.location.href="index.html"
+  }
+}
+
+</script>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -17,32 +34,21 @@
          <a href="index.html">Home</a>
          <a href="createregistry.html">Create Registry</a>
          <a href="findregistry.html">Find Registry</a>
-         <a href="login.html">Login</a>
+         <a href="logout.html">Logout</a>
       </div>
    </div>
      <p id="p4"> Last step! Please enter the email addresses you would like your invitation and registry sent to. In order to make sure everyone recieves your invite and registry seperate multiple emails with a comma.  Feel free to add a personal message that will be included in the invitation memo for your recipents. </p>
-     <form>
+     <form name="myForm">
   <input name="name" type="text" class="feedback-input" placeholder="Event name" />
   <input name="email" type="text" class="feedback-input" placeholder="Emails (comma seperate)" />
   <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-
-
-
-
-
-
-
-
-
-
-
 </form>
 
-<form method="post" action="index.html">
+
   <div class="shareregistrybtn">
-<button class="button"> Share Registry </button>
+<button class="button" onClick="validateForm()"> Share Registry </button>
 </div>
-</form>
+
     </body>
 
   </html>

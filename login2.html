@@ -1,3 +1,21 @@
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["email"].value;
+  var y = document.forms["myForm"]["password"].value;
+  var z = document.forms["myForm"]["gender"].value;
+  var a = document.forms["myForm"]["number"].value;
+
+  if (x == "" || y== "" || z=="" || a=="") {
+    alert("Please fill out all fields to sign up");
+    return false;
+  }
+  else{
+    window.location.href="index1.html"
+  }
+}
+
+</script>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -43,7 +61,7 @@
    </div>
 
    <body>
-     <form method="post">
+     <form method="post" name="myForm">
 <div class="box1">
 <div class="box">
 <h1>Register</h1>
@@ -56,8 +74,7 @@
 
 <input type="text" name="number" placeholder="Your phone number" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="number" />
 
-<a href="index1.html"><div id="btn4">Sign Up</div></a> <!-- End Btn2 -->
-
+<button class="btn4" onClick="validateForm()"> Sign Up</button>
 
 </div> <!-- End Box -->
 </div>

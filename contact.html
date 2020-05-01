@@ -1,3 +1,23 @@
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["firstname"].value;
+  var y = document.forms["myForm"]["streetname"].value;
+  var z = document.forms["myForm"]["state"].value;
+  var a = document.forms["myForm"]["subject"].value;
+
+  if (x == "" || y== "" || z=="" || a=="") {
+    alert("Please fill out all fields so we can help you better.");
+    return false;
+  }
+
+  else {
+    window.location.href="index1.html";
+  }
+}
+</script>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -25,7 +45,7 @@
 
 
   <!--form for baby shower begins -->
-         <form action="/action_page.php">
+         <form name= "myForm" action="index1.html">
 
       <!--Parent's name div -->
             <div class="row">
@@ -81,7 +101,7 @@
 
          <form method="post" action="registry.html">
             <div class="contactbtn">
-               <button type="button"> Submit</button>
+               <button type="button" onClick="validateForm()"> Submit</button>
             </div>
          </form>
          </form>

@@ -6,13 +6,15 @@ function validateForm() {
   var a = document.forms["myForm"]["number"].value;
 
   if (x == "" || y== "" || z=="" || a=="") {
-    alert("Please fill out all fields to sign up");
+    alert("Please fill out all fields to signup.");
     return false;
   }
-  else{
-    window.location.href="index1.html"
+  if (x !="" && y!="" && z!="" && a!=""){
+    window.location.href="index1.html";
   }
+
 }
+
 
 </script>
 
@@ -61,7 +63,7 @@ function validateForm() {
    </div>
 
    <body>
-     <form method="post" name="myForm">
+     <form method="post" action="index1.html">
 <div class="box1">
 <div class="box">
 <h1>Register</h1>
@@ -74,7 +76,9 @@ function validateForm() {
 
 <input type="text" name="number" placeholder="Your phone number" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="number" />
 
-<button class="btn4" onClick="validateForm()"> Sign Up</button>
+<button class="btn4" action="index.html">Sign Up</button>
+
+
 
 </div> <!-- End Box -->
 </div>

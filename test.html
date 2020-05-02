@@ -1,255 +1,308 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title> Registry </title>
-    <link rel="stylesheet" href="css/login.css">
+<title>Form Example</title>
+<script LANGUAGE="JavaScript" type="text/javascript">
+function display() {
+  DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
+  message = "<ul><li><b>NAME: </b>" + document.myForm.item.value;
+  message += "<li><b>ADDRESS: </b>" + document.myForm.amount.value;
+  message += "<li><b>PHONE: </b>" + document.form1.phone.value + "</ul>";
+  DispWin.document.write(message);
+}
+</script>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</head>
+<!DOCTYPE html>
 
-
-<div class="navigation">
-   <div class="logo">
-      <img src="images/logo.png">
-   </div>
-   <div class="nav">
-      <a href="index.html">Home</a>
-      <a href="createregistry.html">Create Registry</a>
-      <a href="findregistry.html">Find Registry</a>
-      <a href="logout.html">Logout</a>
-   </div>
-</div>
+<html lang="en">
+   <head>
+      <title> Create Registry </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/test.css">
+   </head>
 
 <body>
+   <div class="navigation">
+      <div class="logo">
+         <img src="images/logo.png">
+      </div>
+      <div class="nav">
+         <a href="index.html">Home</a>
+         <a href="createregistry.html">Create Registry</a>
+         <a href="findregistry.html">Find Registry</a>
+         <a href="logout.html">Logout</a>
+      </div>
+   </div>
+
+<p id="registryparagraph"> Please enter the item name and amount you would like to recieve. </p>
+<form name="myForm">
+<div class="registryform">
 
 
-<h2 class="frh2">Registry</h2>
-
-<table>
-  <tr>
-    <th>Item</th>
-    <th>Item Selection</th>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-  <tr>
-    <td><input type="text" name="item"</td>
-    <td><select id="amount" class="amount" name="amount">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-       <option value="5">5</option>
-       <option value="6">6</option>
-       <option value="7">7</option>
-       <option value="8">8</option>
-       <option value="9">9</option>
-       <option value="10">10</option>
-    </select> <br></td>
-  </tr>
-</table>
-
-<form action="index1.html">
-
-<div class="submitbtn1">
-<a href="index.html"><input type="submit" value="Done selecting"/>
+<div class="table">
 </div>
+    <div class="item1">
+     <input type="text" name="item" class="item" placeholder="Item for registry">
+
+
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+     <input type="text" id="item" class="item" placeholder="Item for registry">
+     <select id="amount" class="amount" name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select> <br>
+
+
+
+
+
+        <form method="post" action="shareregistry.html">
+          <div class="registrysubmit">
+             <button class="button" onClick=display()>Share Registry</button>
+
+          </div>
+        </form>
 
 </form>
+</div>
+
 
 </body>
+
 </html>
